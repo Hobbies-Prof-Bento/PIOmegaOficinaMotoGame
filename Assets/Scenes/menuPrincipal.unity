@@ -2305,7 +2305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb74e57b70223b48a98f2e08f95ffea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomeDoLeveldeJogo: Jogo
+  nomeDoLeveldeJogo: Oficina3D
   painelMenuInicial: {fileID: 1308322350}
   painelOpcoes: {fileID: 277359042}
 --- !u!1 &1641407267
