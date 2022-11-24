@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuPrincipalManager : MonoBehaviour
-{
-    [SerializeField] private string nomeDoLeveldeJogo;
+public class MenuPrincipalManager : MonoBehaviour{
+    
     [SerializeField] private GameObject painelMenuInicial;
     [SerializeField] private GameObject painelOpcoes;
+    [SerializeField] private GameObject menuPrincipal;                                
 
     public void Jogar()
     {
-        SceneManager.LoadScene(nomeDoLeveldeJogo);
+        menuPrincipal.SetActive(false);        
     }
 
     public void AbrirOpcoes()
@@ -30,5 +30,15 @@ public class MenuPrincipalManager : MonoBehaviour
     {
         Debug.Log("Sair do Jogo");
         Application.Quit();
+    }
+
+    void Update()
+    {
+        if(Input.GetKey(KeyCode.Escape))
+        {     
+            painelOpcoes.SetActive(false);
+            painelMenuInicial.SetActive(true);
+            menuPrincipal.SetActive(true);
+        }
     }
 }
