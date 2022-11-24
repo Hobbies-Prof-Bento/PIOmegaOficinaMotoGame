@@ -36,8 +36,23 @@ Ações:
 ### Captura de tela
 
 
+#### Cenário
+
+![image](https://user-images.githubusercontent.com/68859813/203861648-1fab2d96-f9d2-47d2-9a98-4b67e2241a0d.png)
+
+
+#### Minigame
+
+![image](https://user-images.githubusercontent.com/68859813/203861743-03201aeb-2010-4e79-afd3-509cc6fa0755.png)
+
+
+#### Loja
+
+![image](https://user-images.githubusercontent.com/68859813/203861881-eaa63ecb-f49d-4e16-97af-7b2d1c6cc552.png)
+
 ### Vídeo
-  
+
+https://user-images.githubusercontent.com/68859813/203863733-6549cc5d-b61b-422e-aee5-f56616af3e8f.mp4
 
 ## DESENVOLVEDORES
 
